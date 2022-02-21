@@ -5,62 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final project</title>
+    <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-light bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="logo" >
-              </a>
-                  <ul class="d-flex justify-contect-between">
-                      <li class="d-flex">
-                          <a href="#" >Home</a>
-                      </li>
-                      <li class="d-flex">
-                          <a href="pages/about.html">About us</a>
-                      </li>
-                      <li class="d-flex">
-                          <a href="pages/news.html">News</a>
-                      </li>
-                      <li class="d-flex">
-                          <a href="pages/contact">Contact</a>
-                      </li>
-                  </ul>
-                  
-                  <label for="phone">032 2 22 22 22</label>
-            </div>
-          </nav>
-    </header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <img class="px-5" src="../images/logo.png" alt="logo" >
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto" >
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contact.html">Contact</a>
+              </li>
+            </ul>
+              <i class="pe-5" style="font-family: 'Roboto'">+00 111 222 1234</i>
+          </div>
+        </nav>
+      </header>
 
     <section>
-        <div class="container bg-dark text-white text-center">
+        <div class="container bg-dark 
+        text-white text-center mw-100 p-3"
+        style="font-family: 'Roboto'" >
             <h2>Our clasess</h2>
             <p>If You Run A Fitness Gym, This Is One Slogan 
                 That Can Bring Customers In. <br>No One Likes Having 
                 To Drive Miles Out Of Their Way To Go To The Gym. 
                 <br>It Is Always Easier To Have A Gym That Is Actually Close To Home. 
                 <br>Your Body Hears Everything That Your Mind Says. </p>
-        </div>
-        <div class="container bg-dark">
-            <div class="row justify-contect-between">
-                <div class="col-6">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../images/class1.png" class="card-img-top" alt="...">
+            <div class="row justify-content-center text-white" 
+            style="font-family: 'Roboto'" >
+                    <div style="width: 20rem;">
+                        <img src="../images/class1.png" class="card-img-top"
+                           alt="fitness">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h3 class="card-title">Cardio Fitness</h3>
                         </div>
                       </div>
-                      <div class="card" style="width: 18rem;">
-                        <img src="../images/class2.png" class="card-img-top" alt="...">
+                      <div style="width: 20rem;">
+                        <img src="../images/class2.png" class="card-img-top" alt="fitness">
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h3 class="card-title">Yoga Pilates</h3>
+                        </div>
+                      </div>
+                      <div style="width: 20rem;">
+                        <img src="../images/class3.png" class="card-img-top" alt="fitness">
+                        <div class="card-body">
+                          <h3 class="card-title">CrossFit</h3>
+                        </div>
+                      </div><div style="width: 20rem;">
+                        <img src="../images/class4.png" class="card-img-top" alt="fitness">
+                        <div class="card-body">
+                          <h3 class="card-title">Body Attack</h3>
+                        </div>
+                      </div><div style="width: 20rem;">
+                        <img src="../images/class5.png" class="card-img-top" alt="fitness">
+                        <div class="card-body">
+                          <h3 class="card-title">Advanced Gymnastic</p>
+                        </div>
+                      </div><div  style="width: 20rem;">
+                        <img src="../images/class6.png" class="card-img-top" alt="fitness">
+                        <div class="card-body">
+                          <h3 class="card-title">Weight Lifting</h3>
                         </div>
                       </div>
 
-                </div>
+               
 
             </div>      
 
@@ -69,5 +93,26 @@
     </section>
     
 
+     
+
         <script src="js/bootstrap.min.js"></script>
     </body>
+    <footer>
+      <div class="d-flex justify-content-center 
+      align-items-center text-dark bg-light" 
+      style="font-family: 'Roboto'">
+      <div>
+          <img style="margin-right: 200px;" src="../images/logo.png">
+      </div>
+      <div class="mt-5">
+          <p>50 Raritan Center Pkwy, 
+              <br>Edison, NJ 08837, USA
+              <br>+00 111 222 1234
+              <br>Bestrong@gmail.com</p> 
+          <img src="../images/facebook-f.png">
+          <img class="mx-2" src="../images/twitter.png">
+          <img src="../images/linkedin-in.png">
+      </div>
+      </div>
+  </footer>
+  </html>
